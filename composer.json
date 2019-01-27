@@ -12,7 +12,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Hikarine3\\CsvParser\\": "src/py2php.php",
+            "Hikarine3\\Py2php\\": "src/py2php.php",
             "Hikarine3\\Tests\\": "tests/py2php/py2php.php"
         }
     },
