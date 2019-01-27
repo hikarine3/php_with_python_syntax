@@ -31,8 +31,8 @@ print($py2php->lower($string));
 # Supported function
 
 php =>  py2php
-strtolower  =>  lower
 
+strtolower  =>  lower
 
 # How to test
 
@@ -47,5 +47,7 @@ An adminstrator of https://sakuhindb.com/ , http://minakoe.jp/ and so on
 https://github.com/hikarine3
 
 Twitter:
+
 JP: https://twitter.com/hikarine3
+
 EN: https://twitter.com/hajimekurita
