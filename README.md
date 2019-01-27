@@ -14,7 +14,7 @@ add
 ```
     "require": {
         ...
-        "hikarine3/python2php": "*",
+        "hikarine3/py2php": "*",
         ...
     }
 ```
@@ -23,7 +23,7 @@ to composer.json
 # How to use
 
 ```
-$py2php = new python2php();
+$py2php = new Py2php();
 $string = "ABC";
 print($py2php->lower($string));
 ```
