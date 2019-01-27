@@ -1,0 +1,28 @@
+{
+    "name": "hikarine3/py2php",
+    "description": "Use python naming function in PHP",
+    "homepage": "https://github.com/hikarine3/py2php",
+    "keywords": ["python", "php", "python2php"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hajime Kurita"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Hikarine3\\CsvParser\\": "src/py2php.php",
+            "Hikarine3\\Tests\\": "tests/py2php/py2php.php"
+        }
+    },
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
